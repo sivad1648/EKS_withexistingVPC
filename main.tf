@@ -30,3 +30,10 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly-EK
  policy_arn = "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
  role    = aws_iam_role.eks-iam-role.name
 }
+
+# Modules reference
+module "education-vpc" {
+  source  = "https://github.com/hashicorp/learn-terraform-provision-eks-cluster.git/learn-terraform-provision-eks-cluster/vpc.tf"
+}
+
+

@@ -32,8 +32,8 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly-EK
 }
 
 # Modules reference
-module "vpc" {
-  source  = "git::https://github.com/hashicorp/learn-terraform-provision-eks-cluster.git"
-}
+#module "vpc" {
+#  source  = "git::https://github.com/hashicorp/learn-terraform-provision-eks-cluster.git"
+#}
 
 

@@ -1,9 +1,9 @@
 variable "subnet_id_1" {
   type = string
-  default = "subnet-0ba3886e2d8efda0a"
+  default = "module.education-vpc.public_subnets"
  }
  
  variable "subnet_id_2" {
   type = string
-  default = "subnet-090302c7b3c9721ef"
+  default = "module.education-vpc.private_subnets"
  }

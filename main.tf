@@ -33,7 +33,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly-EK
 
 # Modules reference
 module "education-vpc" {
-  source  = "https://github.com/hashicorp/learn-terraform-provision-eks-cluster.git/learn-terraform-provision-eks-cluster/vpc.tf"
+  source  = "git::https://github.com/hashicorp/learn-terraform-provision-eks-cluster/blob/e48b23898a6f2c750fd0e818184441d5ce1a78c1/vpc.tf"
 }
 
 

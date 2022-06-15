@@ -6,6 +6,6 @@ variable "subnet_id_1" {
  
  variable "subnet_id_2" {
   type = string
-  default = "subnet-037819acd8ccb0253"
+  default = "subnet-047b032cd4dd787a1"
   #default = "module.vpc.private_subnets"
  }
